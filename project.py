@@ -7,12 +7,14 @@ import time
 # --------------
 # calling and massege:
 
-from_whatsapp = 'whatsapp:+14155238886'
-to_whatsapp = 'whatsapp:+972524203006'
+# You must register on the website and complete the details:
+# https://www.twilio.com/try-twilio
+from_whatsapp = 'whatsapp:_______'    # Twilio Sandbox for WhatsApp (whatsapp:+123456789)
+to_whatsapp = 'whatsapp:_______'     # your number you signed with
 
 # send a message to my phone, of text or text and a picture with a link
 def send_message(msg, img = 0):
-    myClient = Client('AC05d0f5d4b8ab17ac48de62a6b6bddec2', '9c053f4a2475737d30a8f39c92311e83')
+    myClient = Client('___ACCOUNT SID___', '___AUTH TOKEN___')
     if(img == 0):
         myClient.messages.create(from_=from_whatsapp, to=to_whatsapp, body=msg)
         return
