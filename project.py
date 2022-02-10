@@ -84,13 +84,9 @@ cases_count = 0
 check_count = 3
 ok_val = check_count+1
 
-
 def regVal():
-    if check_count % 2 == 0:
-        x = check_count/2
-    else:
-        x = (check_count//2) +1
-    return x + ok_val * (check_count-x)
+    x = check_count//2
+    return (check_count-x) + ok_val * x
 
 reg_val = regVal()
 
