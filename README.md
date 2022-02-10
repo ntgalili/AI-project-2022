@@ -6,3 +6,5 @@ The project uses image processing technology, openCV, and classification, in ord
 link to the age_net:
 
 https://drive.google.com/file/d/11zEbyKcREMDbGrjqLvuBGaIf72RUvZrS/view?usp=sharing
+
+![readme](readme.png)
