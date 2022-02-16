@@ -46,7 +46,7 @@ img_counter = 0
 ageProto="age_deploy.prototxt"  # The model architecture - containing all the neural network layer’s definitions
 # download from: https://github.com/ntgalili/AI-project-2022
 ageModel="age_net.caffemodel"  # The pre-trained model weights for age detection
-# download from: https://drive.google.com/open?id=1kWv0AjxGSN0g31OeJa02eBGM0R_jcjIl
+# download from: https://drive.google.com/file/d/11zEbyKcREMDbGrjqLvuBGaIf72RUvZrS/view?usp=sharing
 
 ageNet=cv2.dnn.readNet(ageModel,ageProto) # Load age prediction model
 
